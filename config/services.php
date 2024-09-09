@@ -34,5 +34,11 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
+    'google' => [
+
+        'client_id' => '15270894728-7bh107gg75p5kgj8hrk7gcc9mfgm5s1d.apps.googleusercontent.com',
+        'client_secret' => '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',
+        'redirect' => 'http://127.0.0.1:8000/auth/google/callback',
+    ],
 
 ];
